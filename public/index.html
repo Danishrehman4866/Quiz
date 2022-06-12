@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-4.6.1-dist/css/bootstrap.min.css">
+</head>
+<body style="height: 100vh; ">
+    <form action="./quiz.html"  class="card formCard w-50 mx-auto mt-5">
+        <h1 class="text-center font-weight-bold">
+            QUIZ ASSIGNMENT
+        </h1>
+        <label style="font-weight: bold;font-style: italic;" for="name">
+            NAME :
+            <br />
+            <br />
+            <input type="text" placeholder="Enter Your Name"  id="name" required>
+        </label>
+        <br />
+        <label style="font-weight: bold;font-style: italic;" for="email">
+            EMAIL :
+            <br />
+            <br />
+            <input type="email" placeholder="Enter Email Address" id="email" required>
+        </label>
+        <br />        
+        <label style="font-weight: bold;font-style: italic;" for="number">
+            PHONE NUMBER :
+            <br />
+            <br />
+            <input type="number" placeholder="03XX XXXXXXX" maxlength="12" minlength="3" id="number" required>
+        </label>
+        <br />        
+        <label style="font-weight: bold;font-style: italic;" for="code">
+            BMJ CODE :
+            <br />
+            <br />
+            <input type="number" placeholder="XXXX" minlength="4" id="code" required>
+        </label>
+        <br />
+        <div class="mx-auto" >
+            <button style="margin-top: 10px;" type="submit" class="btn btn-dark">SUBMIT</button>
+        </div>
+    </form>
+</body>
+<script src="./bootstrap-4.6.1-dist/js/jquery.slim.min.js"></script>
+<script src="./bootstrap-4.6.1-dist/js/popper.min.js"></script>
+<script src="./bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+<script src="./app.js"></script>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace !important;
+}
+.formCard{
+    margin:  auto;
+    border: none !important;
+    height: 100vh !important;
+}
+.formCard input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid  #85D8CE;
+    outline: none;
+}
+.main{
+    border:  1px solid;
+    margin: 100px auto;
+}
+.hide {
+    display: none;
+  }
+.show {
+    display: block;
+}
+  
+.disabled {
+    pointer-events: none;
+}
+.color{
+    background-color: blueviolet;
+}  
+.star {
+    color: goldenrod;
+}
+#nextQuestion{
+    background-color: #343a40 !important;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+}
